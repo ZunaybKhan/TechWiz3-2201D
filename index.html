@@ -21,21 +21,70 @@
 
 <body>
 
+  <div class="d-grid">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="container w-25">
+          <img class="img-fluid" src="./Images/LandingPicture.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="container mt-4">
+          <div class="position-relative text-center">
+            <h2 class="h1">Wellcome to eStudiez Portal</h2>
+            <br>
+            <Label class="font-weight">Enter Your Name: </Label>
+            <input type="text" name="" id="input-name" required minlength="20">
+            <a href="#" class="btn btn-success text-decoration-none" onclick="add()">Login</a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+    <div class="container text-center">
+      <div class="container-fluid ">
+        <h2 class="h4">Select the user category you belong to ?</h2>
+        <div class="row position-relative">
+          <div class="col-12 text-center">
+            <input type="radio" name="radio" id="teacher-check">
+            <label for="teacher">
+              Teacher
+            </label>
+          </div>
+          <br>
+          <div class="col-12 text-center">
+            <input type="radio" name="radio" id="student-check">
+            <label for="student">Student</label>
+          </div>
+          <br>
+          <div class="col-12 text-center">
+            <input type="radio" name="radio" id="parents-check">
+            <label for="parents">
+              Parents/Guardian
+            </label>
+          </div>
+        </div>
+      </div>
 
 
-  <div class="container">
-    <h1 class="text-center">Welcome to the Student portal</h1>
-    <img class="img" src="Images/LandingPicture.jpg" alt="">
-    <input type="text" placeholder="Your name">
-    <h2>Select the user catagory you blong to?</h2>
-    <input type="radio" name="Student" id="user">
-    <input type="radio" name="Teacher" id="user">
-    <input type="radio" name="Parent/Gardian " id="user">
+    </div>
   </div>
+
+
+
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
     </script>
+
   <script>
 
   </script>
