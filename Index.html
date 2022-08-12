@@ -21,15 +21,23 @@
 
   <!-- Font Awosome CDN-->
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
-
   <!-- Css -->
   <link rel="stylesheet" href="style.css">
+  <!-- Navbar Css -->
+  <link rel="stylesheet" href="./header-&-navbar.css">
+  <!-- Footer Css -->
+  <link rel="stylesheet" href="./footer.css">
+  <!-- Social Mmedia Icons -->
+  <link rel="stylesheet" href="./Social-Media-icons.css">
+  <!-- Scroll Top Css -->
+  <link rel="stylesheet" href="scroll top.css">
+
 
   <!-- Web Title -->
   <title>A-1 Uniforms.com/Index</title>
-
   <!-- Favicon -->
   <link rel="icon" href="Favicon.png">
+
 </head>
 
 
@@ -294,47 +302,32 @@
 </div>
 
 
-<!--Footer-->
 
+<br><br>
+<!-- 
+  ================
+  Footer 
+  ======================== 
+  -->
 
-<footer>
-  <div class="container-fluid d-flex justify-content-center" style="background-color:whitesmoke">
-    <div class="section-title mb-2">
-      <h6>Follow Us</h6>
-      <hr>
-      <span class="icons">
-        <a href="#"> <i class="fa-brands fa-facebook-square"></i></a>
-        <a href="#"> <i class="fa-brands fa-twitter-square"></i></a>
-        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"> <i class="fa-brands fa-pinterest"></i></a>
-        <a href="#"> <i class="fa-brands fa-github"></i></a>
-      </span>
-    </div>
-  </div>
-
-  <div class="container-fluid d-flex justify-content-center"
-    style="background-color: rgb(160, 160, 195);color: #0e0548f1;">
-    Copyright A-1 UNIFORM © 2022. All rights reserved.
-  </div>
-  <div class="container-fluid d-flex justify-content-center"
-    style="background-color: rgb(160, 160, 195);font-weight: bold;">
-    <a href="#">This Website Design By Iqra Khan <i class="fa-thin fa-heart"></i></a>
-  </div>
-</footer>
-
-
-<!-- Scroll Top -->
-
-
+<div id="dynamic-footer"></div>
 <button type="button" class="btn btn-floating" id="btn-back-to-top"><i class="fas fa-arrow-up"></i></button>
-
-
-<!-- Scroll Top Attach Files -->
-
-
+<!-- Scroll Top Js -->
 <script src="scroll top.js"></script>
-<link rel="stylesheet" href="scroll top.css">
+<!-- Bootstrap JS Libraries -->
+<script src="./bootstrap-5.2.0/js/bootstrap.min.js"></script>
+<!-- Fontawosome kit -->
+<script src="https://kit.fontawesome.com/245ede304f.js" crossorigin="anonymous"></script>
+<script src="./js/jquery-Minified-3.6.0.js"></script>
+<script>
+
+  $(document).ready(function () {
+    $("#dynamic-navbar").load("header-&-navbar.html");
+    $("#dynamic-footer").load("footer.html");
+
+  });
+
+</script>
 
 </body>
 
