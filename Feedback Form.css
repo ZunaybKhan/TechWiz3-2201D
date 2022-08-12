@@ -1,0 +1,58 @@
+.container> .star-widget >input{
+  display: none;
+}
+.star-widget> label{
+  font-size: 40px;
+  color: rgb(186, 192, 223);
+  padding: 5px;
+  float: right;
+  transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color: gold;
+}
+input:checked ~ label{
+  color: gold;
+}
+input#rate-5:checked ~ label{
+  color: gold;
+  text-shadow: 0 0 20px rgb(28, 16, 106);
+}
+#rate-1:checked ~ form header:before{
+  content: "I just hate it 💔";
+}
+#rate-2:checked ~ form header:before{
+  content: "I don't like it ❤️‍🩹";
+}
+#rate-3:checked ~ form header:before{
+  content: "I just like it 💙";
+}
+#rate-4:checked ~ form header:before{
+  content: "I just love it 💝	";
+}
+.container form{
+  display: none;
+}
+input:checked ~ form{
+  display: block;
+}
+form >header{
+  font-size: 30px;
+  color: rgb(27, 28, 104);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.submit-btn{
+  background-color:#0e0548f1;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.label{
+font-weight: bold;
+}

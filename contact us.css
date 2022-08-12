@@ -1,0 +1,38 @@
+#contact {
+    padding: 10px;
+    background: rgb(255, 255, 255);
+  }
+
+  #contact .section-title p {
+    color: #0e0548f1;
+    font-weight: bold;
+  }
+
+  #contact h3 {
+    padding:5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+
+  #contact .contact-info hr {
+    background: rgb(13, 12, 12);
+  }
+  p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  h4 {
+    color: #0e0548f1;
+    background-color: whitesmoke;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  h5{
+margin-top:10px;
+  }
